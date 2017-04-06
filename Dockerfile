@@ -1,4 +1,5 @@
-FROM ubuntu:14.04
+FROM python
+pip install Flask Pillow
 ADD ./webapp /opt/webapp/
 WORKDIR /opt/webapp
 EXPOSE 5000
