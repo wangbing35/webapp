@@ -40,7 +40,7 @@ def health_check():
     return 'ok'
   
 @app.route('/')
-def health_check():
+def hello():
     return 'Hello'
 
 if __name__ == '__main__':
