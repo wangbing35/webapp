@@ -1,5 +1,5 @@
 FROM python
-pip install Flask Pillow
+RUN pip install Flask Pillow
 ADD ./webapp /opt/webapp/
 WORKDIR /opt/webapp
 EXPOSE 5000
